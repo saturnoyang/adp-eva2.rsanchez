@@ -48,16 +48,16 @@
   <body class="text-center">
     
 <main class="form-signin">
-  <form>
+  <form method="post" action="login.jsp">
     <img class="mb-4" src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Formulario de Ingreso</h1>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+      <input type="email" name="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
       <label for="floatingInput">Correo</label>
     </div>
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Clave">
+      <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Clave">
       <label for="floatingPassword">Clave</label>
     </div>
 
